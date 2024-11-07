@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'CalculatorPage.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -31,7 +32,7 @@ class _HomepageState extends State<HomePage> {
           //color: Colors.white,
           child: Column(children: <Widget>[ElevatedButton(
                 onPressed: () => {this.click()},
-                child: Text('Go to calculator', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17),),
+                child: Text('Go to calculator', style: GoogleFonts.comicNeue().copyWith(fontSize: 17, fontWeight: FontWeight.bold)),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFFb5179e),
                   foregroundColor: Color(0xFFfdf0d5),

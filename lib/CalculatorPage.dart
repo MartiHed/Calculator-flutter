@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'calculatorButton.dart';
 import 'Calculator.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 class CalculatorPage extends StatefulWidget {
   const CalculatorPage({super.key});
