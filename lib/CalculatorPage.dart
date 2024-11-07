@@ -47,7 +47,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
               calculatorButton('AC', const Color(0xFF4361ee), calculator, () => setState(() {})),
               calculatorButton('±', const Color(0xFF4361ee), calculator, () => setState(() {})),
               calculatorButton('%', const Color(0xFF4361ee), calculator, () => setState(() {})),
-              calculatorButton('/', const Color(0xFFb5179e), calculator, () => setState(() {})),
+              calculatorButton('u', const Color(0xFFb5179e), calculator, () => setState(() {})),
             ]),
             const SizedBox(height: 10),
             Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
